@@ -4,12 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-actix = "0.13"
-actix-web = "4"
-actix-rt = "2.5.0"
-actix-cors = "0.7.0"
-actix-identity = "0.4.0"
-diesel = { version = "2.1", features = ["postgres", "r2d2"] }
+actix-web = "4.2.1"
 dotenv = "0.15.0"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1"
@@ -17,7 +12,6 @@ uuid = { version = "1", features = ["v4"] }
 tokio = { version = "1", features = ["full"] }
 jsonwebtoken = "8.1.1"
 cookie = "0.15.0"
-actix-service = "2.0.0"
 
 [[bin]]
 name = "kratos"
